@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<learners>
+  <learner>
+    <registrationNumber>S001</registrationNumber>
+    <fullName>Kamal Perera</fullName>
+    <degreeProgramme>Data Science</degreeProgramme>
+    <academicPerformance>Very Good</academicPerformance>
+  </learner>
+  <learner>
+    <registrationNumber>S002</registrationNumber>
+    <fullName>Nimasha Dilrukshi</fullName>
+    <degreeProgramme>Software Engineering</degreeProgramme>
+    <academicPerformance>Good</academicPerformance>
+  </learner>
+  <learner>
+    <registrationNumber>S003</registrationNumber>
+    <fullName>Ashen Bandara</fullName>
+    <degreeProgramme>Information Systems</degreeProgramme>
+    <academicPerformance>Excellent</academicPerformance>
+  </learner>
+  <learner>
+    <registrationNumber>S004</registrationNumber>
+    <fullName>Thilini Wickramasinghe</fullName>
+    <degreeProgramme>Data Science</degreeProgramme>
+    <academicPerformance>Satisfactory</academicPerformance>
+  </learner>
+  <learner>
+    <registrationNumber>S005</registrationNumber>
+    <fullName>Dinuka Rathnayake</fullName>
+    <degreeProgramme>Data Science</degreeProgramme>
+    <academicPerformance>Very Good</academicPerformance>
+  </learner>
+  <learner>
+    <registrationNumber>S006</registrationNumber>
+    <fullName>Anjali Fernando</fullName>
+    <degreeProgramme>Data Science</degreeProgramme>
+    <academicPerformance>Excellent</academicPerformance>
+  </learner>
+  <learner>
+    <registrationNumber>S007</registrationNumber>
+    <fullName>Nimal Silva</fullName>
+    <degreeProgramme>Software Engineering</degreeProgramme>
+    <academicPerformance>Satisfactory</academicPerformance>
+  </learner>
+  <learner>
+    <registrationNumber>S008</registrationNumber>
+    <fullName>Sadun Kariyawasam</fullName>
+    <degreeProgramme>Information Systems</degreeProgramme>
+    <academicPerformance>At Risk</academicPerformance>
+  </learner>
+  <learner>
+    <registrationNumber>S009</registrationNumber>
+    <fullName>Ishara Perera</fullName>
+    <degreeProgramme>Data Science</degreeProgramme>
+    <academicPerformance>Very Good</academicPerformance>
+  </learner>
+  <learner>
+    <registrationNumber>S010</registrationNumber>
+    <fullName>Chamika Jayasuriya</fullName>
+    <degreeProgramme>Software Engineering</degreeProgramme>
+    <academicPerformance>Very Good</academicPerformance>
+  </learner>
+</learners>

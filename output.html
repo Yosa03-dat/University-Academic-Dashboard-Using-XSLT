@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>University Academic Dashboard</title>
+<style>
+                body { font-family: Arial, Helvetica, sans-serif; background: #f3f5f9; color: #222; margin: 0; padding: 24px; }
+                .wrap { max-width: 1000px; margin: 0 auto; }
+                h1 { color: #1f3a6e; margin-bottom: 2px; }
+                .sub { color: #666; margin-top: 0; margin-bottom: 20px; }
+                h2 { color: #1f3a6e; border-bottom: 2px solid #2e5395; padding-bottom: 4px; margin-top: 34px; }
+                table.cards { border-collapse: separate; border-spacing: 10px 0; margin: 0 -10px 10px -10px; }
+                table.cards td { background: #fff; border: 1px solid #d5dbe8; border-radius: 6px; padding: 12px 22px; text-align: center; }
+                .num { font-size: 26px; font-weight: bold; color: #2e5395; display: block; }
+                .lbl { font-size: 12px; color: #666; }
+                table.data { border-collapse: collapse; width: 100%; background: #fff; }
+                table.data th { background: #2e5395; color: #fff; text-align: left; padding: 8px 10px; font-size: 13px; }
+                table.data td { padding: 7px 10px; border-bottom: 1px solid #e3e7ef; font-size: 13px; }
+                table.data tr:nth-child(even) td { background: #f8f9fc; }
+                .badge { padding: 2px 9px; border-radius: 10px; font-size: 12px; font-weight: bold; }
+                .excellent { background: #d9f2e1; color: #17653a; }
+                .verygood { background: #dcebfa; color: #1b4f8c; }
+                .good { background: #e8f1d6; color: #4b6b17; }
+                .satisfactory { background: #fdf0d2; color: #8a5d00; }
+                .atrisk { background: #fadcdc; color: #a11d1d; }
+                .note { color: #666; font-size: 12px; margin-top: 6px; }
+                .empty { color: #a11d1d; font-style: italic; }
+            </style>
+</head>
+<body><div class="wrap">
+<h1>University Academic Dashboard</h1>
+<p class="sub">Sabaragamuwa University of Sri Lanka •
+                Academic records 2026</p>
+<table class="cards"><tr>
+<td>
+<span class="num">10</span><span class="lbl">Students</span>
+</td>
+<td>
+<span class="num">3</span><span class="lbl">Programmes</span>
+</td>
+<td>
+<span class="num">8</span><span class="lbl">Courses</span>
+</td>
+<td>
+<span class="num">5</span><span class="lbl">Lecturers</span>
+</td>
+<td>
+<span class="num">3.18</span><span class="lbl">Average GPA</span>
+</td>
+<td>
+<span class="num">1</span><span class="lbl">At Risk</span>
+</td>
+</tr></table>
+<h2>1. Student Performance Dashboard</h2>
+<table class="data">
+<tr>
+<th>ID</th>
+<th>Student</th>
+<th>Programme</th>
+<th>Year</th>
+<th>GPA</th>
+<th>Performance</th>
+</tr>
+<tr>
+<td>S006</td>
+<td>Anjali Fernando</td>
+<td>Data Science</td>
+<td>3</td>
+<td>4.00</td>
+<td><span class="badge excellent">Excellent</span></td>
+</tr>
+<tr>
+<td>S003</td>
+<td>Ashen Bandara</td>
+<td>Information Systems</td>
+<td>2</td>
+<td>3.77</td>
+<td><span class="badge excellent">Excellent</span></td>
+</tr>
+<tr>
+<td>S009</td>
+<td>Ishara Perera</td>
+<td>Data Science</td>
+<td>3</td>
+<td>3.67</td>
+<td><span class="badge verygood">Very Good</span></td>
+</tr>
+<tr>
+<td>S001</td>
+<td>Kamal Perera</td>
+<td>Data Science</td>
+<td>3</td>
+<td>3.67</td>
+<td><span class="badge verygood">Very Good</span></td>
+</tr>
+<tr>
+<td>S010</td>
+<td>Chamika Jayasuriya</td>
+<td>Software Engineering</td>
+<td>3</td>
+<td>3.33</td>
+<td><span class="badge verygood">Very Good</span></td>
+</tr>
+<tr>
+<td>S005</td>
+<td>Dinuka Rathnayake</td>
+<td>Data Science</td>
+<td>4</td>
+<td>3.33</td>
+<td><span class="badge verygood">Very Good</span></td>
+</tr>
+<tr>
+<td>S002</td>
+<td>Nimasha Dilrukshi</td>
+<td>Software Engineering</td>
+<td>4</td>
+<td>3.23</td>
+<td><span class="badge good">Good</span></td>
+</tr>
+<tr>
+<td>S004</td>
+<td>Thilini Wickramasinghe</td>
+<td>Data Science</td>
+<td>1</td>
+<td>2.87</td>
+<td><span class="badge satisfactory">Satisfactory</span></td>
+</tr>
+<tr>
+<td>S007</td>
+<td>Nimal Silva</td>
+<td>Software Engineering</td>
+<td>2</td>
+<td>2.67</td>
+<td><span class="badge satisfactory">Satisfactory</span></td>
+</tr>
+<tr>
+<td>S008</td>
+<td>Sadun Kariyawasam</td>
+<td>Information Systems</td>
+<td>3</td>
+<td>1.23</td>
+<td><span class="badge atrisk">At Risk</span></td>
+</tr>
+</table>
+<p class="note">Excellent ≥ 3.70 • Very Good 3.30–3.69 • Good 3.00–3.29 • Satisfactory 2.00–2.99 • At Risk &lt; 2.00</p>
+<h2>2. Data Science Students with GPA ≥ 3.50</h2>
+<table class="data">
+<tr>
+<th>Student ID</th>
+<th>Name</th>
+<th>GPA</th>
+<th>Academic Year</th>
+</tr>
+<tr>
+<td>S006</td>
+<td>Anjali Fernando</td>
+<td>4.00</td>
+<td>3</td>
+</tr>
+<tr>
+<td>S001</td>
+<td>Kamal Perera</td>
+<td>3.67</td>
+<td>3</td>
+</tr>
+<tr>
+<td>S009</td>
+<td>Ishara Perera</td>
+<td>3.67</td>
+<td>3</td>
+</tr>
+</table>
+<p class="note">3 of 5 Data Science students qualify.</p>
+<h2>3. Course Catalogue</h2>
+<table class="data">
+<tr>
+<th>Code</th>
+<th>Course</th>
+<th>Credits</th>
+<th>Lecturer</th>
+<th>Enrolled</th>
+<th>Average Marks</th>
+</tr>
+<tr>
+<td>DS1101</td>
+<td>Introduction to Programming</td>
+<td>3</td>
+<td>Mr. Ruwan Jayasena</td>
+<td>4</td>
+<td>67.75</td>
+</tr>
+<tr>
+<td>DS3105</td>
+<td>Data Mining</td>
+<td>3</td>
+<td>Ms. Harini Gunawardena</td>
+<td>3</td>
+<td>88.33</td>
+</tr>
+<tr>
+<td>DS4101</td>
+<td>Advanced Database Management Systems</td>
+<td>3</td>
+<td>Dr. Nadeesha Fernando</td>
+<td>3</td>
+<td>79.67</td>
+</tr>
+<tr>
+<td>DS5103</td>
+<td>Semantic Web</td>
+<td>3</td>
+<td>Dr. Kavinda Silva</td>
+<td>5</td>
+<td>81.40</td>
+</tr>
+<tr>
+<td>IS4107</td>
+<td>Professionalism and Ethics in Computing</td>
+<td>2</td>
+<td>Mrs. Chathurika Perera</td>
+<td>2</td>
+<td>65.50</td>
+</tr>
+<tr>
+<td>IS4210</td>
+<td>Business Intelligence</td>
+<td>3</td>
+<td>Dr. Nadeesha Fernando</td>
+<td>5</td>
+<td>68.80</td>
+</tr>
+<tr>
+<td>SE8111</td>
+<td>Artificial Intelligence</td>
+<td>3</td>
+<td>Dr. Kavinda Silva</td>
+<td>5</td>
+<td>79.60</td>
+</tr>
+<tr>
+<td>SE8202</td>
+<td>Software Project Management</td>
+<td>2</td>
+<td>Mr. Ruwan Jayasena</td>
+<td>3</td>
+<td>75.67</td>
+</tr>
+</table>
+</div></body>
+</html>

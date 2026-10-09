@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="student_dashboard.xsl"?>
+<academicRecords university="Sabaragamuwa University of Sri Lanka" year="2026">
+
+    <programmes>
+        <programme code="DS">Data Science</programme>
+        <programme code="SE">Software Engineering</programme>
+        <programme code="IS">Information Systems</programme>
+    </programmes>
+
+    <lecturers>
+        <lecturer id="L01"><name>Dr. Kavinda Silva</name><department>Department of Computing</department></lecturer>
+        <lecturer id="L02"><name>Dr. Nadeesha Fernando</name><department>Department of Computing</department></lecturer>
+        <lecturer id="L03"><name>Mr. Ruwan Jayasena</name><department>Department of Computing</department></lecturer>
+        <lecturer id="L04"><name>Mrs. Chathurika Perera</name><department>Department of Information Systems</department></lecturer>
+        <lecturer id="L05"><name>Ms. Harini Gunawardena</name><department>Department of Computing</department></lecturer>
+    </lecturers>
+
+    <courses>
+        <course code="DS5103" credits="3" lecturerId="L01"><title>Semantic Web</title></course>
+        <course code="DS4101" credits="3" lecturerId="L02"><title>Advanced Database Management Systems</title></course>
+        <course code="SE8111" credits="3" lecturerId="L01"><title>Artificial Intelligence</title></course>
+        <course code="SE8202" credits="2" lecturerId="L03"><title>Software Project Management</title></course>
+        <course code="IS4107" credits="2" lecturerId="L04"><title>Professionalism and Ethics in Computing</title></course>
+        <course code="IS4210" credits="3" lecturerId="L02"><title>Business Intelligence</title></course>
+        <course code="DS1101" credits="3" lecturerId="L03"><title>Introduction to Programming</title></course>
+        <course code="DS3105" credits="3" lecturerId="L05"><title>Data Mining</title></course>
+    </courses>
+
+    <students>
+        <student id="S001" gender="M">
+            <name>Kamal Perera</name>
+            <programme>Data Science</programme>
+            <academicYear>3</academicYear>
+            <gpa>3.67</gpa>
+            <enrolments>
+                <enrolment courseCode="DS5103"><marks>88</marks><grade>A</grade></enrolment>
+                <enrolment courseCode="DS4101"><marks>82</marks><grade>A-</grade></enrolment>
+                <enrolment courseCode="SE8111"><marks>78</marks><grade>B+</grade></enrolment>
+            </enrolments>
+        </student>
+
+        <student id="S002" gender="F">
+            <name>Nimasha Dilrukshi</name>
+            <programme>Software Engineering</programme>
+            <academicYear>4</academicYear>
+            <gpa>3.23</gpa>
+            <enrolments>
+                <enrolment courseCode="SE8111"><marks>90</marks><grade>A</grade></enrolment>
+                <enrolment courseCode="SE8202"><marks>72</marks><grade>B</grade></enrolment>
+                <enrolment courseCode="IS4210"><marks>68</marks><grade>B-</grade></enrolment>
+            </enrolments>
+        </student>
+
+        <student id="S003" gender="M">
+            <name>Ashen Bandara</name>
+            <programme>Information Systems</programme>
+            <academicYear>2</academicYear>
+            <gpa>3.77</gpa>
+            <enrolments>
+                <enrolment courseCode="IS4107"><marks>86</marks><grade>A</grade></enrolment>
+                <enrolment courseCode="IS4210"><marks>89</marks><grade>A</grade></enrolment>
+                <enrolment courseCode="DS1101"><marks>77</marks><grade>B+</grade></enrolment>
+            </enrolments>
+        </student>
+
+        <student id="S004" gender="F">
+            <name>Thilini Wickramasinghe</name>
+            <programme>Data Science</programme>
+            <academicYear>1</academicYear>
+            <gpa>2.87</gpa>
+            <enrolments>
+                <enrolment courseCode="DS1101"><marks>79</marks><grade>B+</grade></enrolment>
+                <enrolment courseCode="DS5103"><marks>73</marks><grade>B</grade></enrolment>
+                <enrolment courseCode="SE8111"><marks>64</marks><grade>C+</grade></enrolment>
+            </enrolments>
+        </student>
+
+        <student id="S005" gender="M">
+            <name>Dinuka Rathnayake</name>
+            <programme>Data Science</programme>
+            <academicYear>4</academicYear>
+            <gpa>3.33</gpa>
+            <enrolments>
+                <enrolment courseCode="DS5103"><marks>74</marks><grade>B</grade></enrolment>
+                <enrolment courseCode="DS4101"><marks>78</marks><grade>B+</grade></enrolment>
+                <enrolment courseCode="DS3105"><marks>83</marks><grade>A-</grade></enrolment>
+            </enrolments>
+        </student>
+
+        <student id="S006" gender="F">
+            <name>Anjali Fernando</name>
+            <programme>Data Science</programme>
+            <academicYear>3</academicYear>
+            <gpa>4.00</gpa>
+            <enrolments>
+                <enrolment courseCode="DS5103"><marks>91</marks><grade>A</grade></enrolment>
+                <enrolment courseCode="SE8111"><marks>90</marks><grade>A</grade></enrolment>
+                <enrolment courseCode="DS3105"><marks>95</marks><grade>A+</grade></enrolment>
+            </enrolments>
+        </student>
+
+        <student id="S007" gender="M">
+            <name>Nimal Silva</name>
+            <programme>Software Engineering</programme>
+            <academicYear>2</academicYear>
+            <gpa>2.67</gpa>
+            <enrolments>
+                <enrolment courseCode="SE8202"><marks>71</marks><grade>B</grade></enrolment>
+                <enrolment courseCode="IS4210"><marks>67</marks><grade>B-</grade></enrolment>
+                <enrolment courseCode="DS1101"><marks>63</marks><grade>C+</grade></enrolment>
+            </enrolments>
+        </student>
+
+        <student id="S008" gender="M">
+            <name>Sadun Kariyawasam</name>
+            <programme>Information Systems</programme>
+            <academicYear>3</academicYear>
+            <gpa>1.23</gpa>
+            <enrolments>
+                <enrolment courseCode="IS4107"><marks>45</marks><grade>D</grade></enrolment>
+                <enrolment courseCode="DS1101"><marks>52</marks><grade>C-</grade></enrolment>
+                <enrolment courseCode="IS4210"><marks>48</marks><grade>D</grade></enrolment>
+            </enrolments>
+        </student>
+
+        <student id="S009" gender="F">
+            <name>Ishara Perera</name>
+            <programme>Data Science</programme>
+            <academicYear>3</academicYear>
+            <gpa>3.67</gpa>
+            <enrolments>
+                <enrolment courseCode="DS5103"><marks>81</marks><grade>A-</grade></enrolment>
+                <enrolment courseCode="DS3105"><marks>87</marks><grade>A</grade></enrolment>
+                <enrolment courseCode="DS4101"><marks>79</marks><grade>B+</grade></enrolment>
+            </enrolments>
+        </student>
+
+        <student id="S010" gender="M">
+            <name>Chamika Jayasuriya</name>
+            <programme>Software Engineering</programme>
+            <academicYear>3</academicYear>
+            <gpa>3.33</gpa>
+            <enrolments>
+                <enrolment courseCode="SE8111"><marks>76</marks><grade>B+</grade></enrolment>
+                <enrolment courseCode="SE8202"><marks>84</marks><grade>A-</grade></enrolment>
+                <enrolment courseCode="IS4210"><marks>72</marks><grade>B</grade></enrolment>
+            </enrolments>
+        </student>
+    </students>
+
+</academicRecords>
